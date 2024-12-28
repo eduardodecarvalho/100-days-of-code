@@ -2,6 +2,14 @@ import sys
 
 string_to_reverse = sys.argv[1]
 
+'''
+Given a string s, reverse the order of 
+characters in each word within a sentence 
+while still preserving whitespace and initial
+word order.
+'''
+
+
 def reverse_words(s):
     output = ''
     left, right = 0, 0
